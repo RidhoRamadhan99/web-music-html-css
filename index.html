@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My Music</title>
     <link rel="stylesheet" href="style.css" />
+    
   </head>
   <body>
+    <a href="RegisterPage"></a>
     <section>
       <div class="login-box">
         <form action="">
@@ -30,9 +32,10 @@
           </div>
           <button type="submit">Login</button>
           <div class="register-link">
-            <p>Dont have an account? <a href="#">Register</a></p>
+            <p>Dont have an account? <a href="RegisterPage.html">Register</a></p>
               </a>
             </div>
+            <button onclick="signInWithGoogle()">Sign In with Google</button>
           </div>
         </form>
       </div>
@@ -46,5 +49,11 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script>
+      function signInWithGoogle() {
+        // Implement Google sign-in functionality here
+        alert("Google sign-in is not yet implemented.");
+      }
+    </script>
   </body>
 </html>
